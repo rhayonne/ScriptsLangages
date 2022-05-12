@@ -1,0 +1,3 @@
+Outils utilisés
+ - Repl it -> to do a compilation online
+ - Live Server -> to create a server in you local machine
