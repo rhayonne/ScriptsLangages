@@ -17,3 +17,9 @@ else{
     console.log('Boa noite');
 
 }
+
+
+//switch..case
+
+
+let permissao;

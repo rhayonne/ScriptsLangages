@@ -78,9 +78,17 @@ console.log('\n\nArray, indice em cores');
 const cores = ['Vermelho', 'Azul', 'Verde'] //Array cores
 
 for (let indice in cores) { // estancia o objeto (indice) à partir do array (cores)
-    console.log(indice, cores[indice]);
+    console.log(indice, cores[indice]); // Imprime os indices do array
 
 }
+
+
+//for..of // Essa forma é muito mais simples e mais usual no dia a dia
+console.log('\n\nImprimindo array com for..of: ');
+for (let cor of cores){ //instancia um objeto do tipo classe cores
+    console.log(cor); //imprime objeto instanciado
+}
+
 
 
 
