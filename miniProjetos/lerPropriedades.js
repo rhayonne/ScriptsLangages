@@ -20,6 +20,7 @@ const escolha = film; // cira variavel que recebe o obj para ser utilizado dentr
 
 function imprimeCar(obj) {
     for (let obj in escolha) {
+        
         console.log(obj, escolha[obj]); //imprime o objeto chamando o tipo e proprio objeto
     }
 
