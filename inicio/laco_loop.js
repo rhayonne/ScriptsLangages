@@ -8,6 +8,7 @@
 
 
 //for
+
 for (let i = 1; i <= 10; i++) {
 
     //console.log('Primeiro for index ' + i);
@@ -33,9 +34,52 @@ for (let i = 20; i >= 0; i--) {
     }
 }
 
+// WHILE
+//While vai verificar a condicao antes de executar
+let i = 5;
+while (i >= 1) {
+    if (i % 2 !== 0) {
+        console.log('Loop: em numeracao decrescente em impar ' + i);
+    }
+    i--;
+}
 
 
+// do...while
+// vai executar uma vez para depois verificar a condicional
+let n = 0;
+do {
+    console.log('digitando ' + n);
+    n++;
+} while (n <= 10);
 
+console.log('\n');
+console.log('\n');
+
+
+// for..in
+console.log('For usando um objeto');
+
+
+const pessoa = {
+    nome: 'Joao',
+    idade: 20
+};
+
+
+for (let chave in pessoa) {
+    console.log(chave, pessoa.nome); //acessando o objeto com poto
+    console.log(chave, pessoa['idade']); //acessando um objeto com []
+}
+
+
+console.log('\n\nArray, indice em cores');
+
+const cores = ['Vermelho', 'Azul', 'Verde'] //Array cores
+
+for (let indice in cores) {
+    console.log(indice, cores);
+}
 
 
 
