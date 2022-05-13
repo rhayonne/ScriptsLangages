@@ -17,7 +17,7 @@ function verificarVelocidade(velocidade) {
             return console.log('Carteira esta suspensa com ' + pontos + ' pontos' );
         } else{
             const restante = pontMax - pontos
-            console.log('Você tem ' + pontos + ' pontos na carteira, restam: ' + restante + ' pontos para que sua carteira seja suspensa.');
+            console.log(`Você tem ${pontos} pontos na carteira, restam: ${restante} pontos para que sua carteira seja suspensa.`);
         }
     }
 }
