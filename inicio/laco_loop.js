@@ -77,8 +77,9 @@ console.log('\n\nArray, indice em cores');
 
 const cores = ['Vermelho', 'Azul', 'Verde'] //Array cores
 
-for (let indice in cores) {
-    console.log(indice, cores);
+for (let indice in cores) { // estancia o objeto (indice) à partir do array (cores)
+    console.log(indice, cores[indice]);
+
 }
 
 
