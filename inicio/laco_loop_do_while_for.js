@@ -68,7 +68,7 @@ const pessoa = {
 
 
 for (let chave in pessoa) {
-    console.log(chave, pessoa.nome); //acessando o objeto com poto
+    console.log(chave, pessoa.nome); //acessando o objeto com ponto
     console.log(chave, pessoa['idade']); //acessando um objeto com []
 }
 
